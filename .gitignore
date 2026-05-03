@@ -1,0 +1,26 @@
+# 创建 .gitignore 文件，告诉Git哪些文件不要跟踪
+echo "# 忽略文件
+node_modules/
+.DS_Store
+*.log
+*.tmp
+.vscode/
+.idea/
+*.exe
+*.dll
+*.so
+*.dylib
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.db
+*.sqlite3
+dist/
+build/
+*.egg-info/
+.coverage
+.pytest_cache/" > .gitignore
