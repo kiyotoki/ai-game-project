@@ -1,0 +1,2 @@
+echo "# MyProject" > README.md
+
