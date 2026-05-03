@@ -58,3 +58,18 @@ function addLog(message) {
 function updateDisplay() {
     console.log(`玩家HP: ${playerHP}, 恶龙HP: ${dragonHP}`);
 }
+
+
+// 在 game.js 末尾添加
+function updateDisplay() {
+    console.log(`玩家HP: ${playerHP}, 恶龙HP: ${dragonHP}`);
+    // 新添加：在页面上显示血量
+    document.getElementById('playerHP').innerText = playerHP;
+    document.getElementById('dragonHP').innerText = dragonHP;
+}
+
+// 修改 HTML 显示（在 index.html 中添加）
+// <h1>🐉 勇者战恶龙</h1>
+// 修改为：
+// <h1>🐉 勇者战恶龙</h1>
+// <p>玩家生命值: <span id="playerHP">100</span> | 恶龙生命值: <span id="dragonHP">150</span></p>
