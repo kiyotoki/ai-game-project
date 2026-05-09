@@ -1,2 +1,1 @@
-echo "# MyProject" > README.md
-
+一个历史模拟游戏项目，刚刚起步
